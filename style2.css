@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Redressed&display=swap');
+
+.redressed{
+    font-family: 'Redressed', cursive;
+}
+
+.merriweather{
+    font-family:'Merriweather', serif;
+}
+
+header{
+    background-image:url(/image/Capture\ d’écran\ .png);
+    background-size: cover;  
+}
+
+body{
+    /* background: linear-gradient(#ff5722,#ffc107); */
+    background-image:url(/image/luxury-mandala-islamic-background_6193689.png!bw700);
+    background-size:100%;
+}
+
+.lanavbar{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/R\ \(1\).jpg) center center fixed no-repeat; */
+    /* background-size: cover; */
+    font-family: 'Merriweather', serif;
+    /* box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54); */
+    z-index: 99;
+}
+
+.lanavbar img{
+    width: 80px;
+    top: 13px;
+    margin-left: 15px;
+}
+
+.lanavbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.lanavbar .nav-link:hover {
+    padding-bottom: 15px;
+    border-bottom-color:rgb(213, 133, 41);
+}
+
+.lanavbar .navbar-brand{
+    font-size: 30px;
+}
+
+.lanavbar .collapse{
+    /* font-family: 'Merriweather', serif; */
+    font-size: 20px;
+}
+
+.galeries{
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Merriweather', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.row .card{
+    background-color: transparent;
+
+}
+
+.btn-order{
+    color: rgb(24, 237, 28);
+    border-color: rgb(24, 237, 24);
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active{
+    color:#fff;
+    background: rgb(25, 181, 25);
+}
+
+.img-fluid{
+    width: 100%;
+    margin: 10px;
+}
+
+.carousel-inner .img{
+    width: 50%;
+}
+

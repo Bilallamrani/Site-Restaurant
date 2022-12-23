@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Redressed&display=swap');
+
+.redressed{
+    font-family: 'Redressed', cursive;
+}
+
+.merriweather{
+    font-family:'Merriweather', serif;
+}
+
+header{
+    background-image: url(/image/Capture\ d’écran\ .png);
+    background-size: cover;  
+}
+
+body{
+  /* background: linear-gradient(#ff5722,#ffc107); */
+  background-image:url(/image/luxury-mandala-islamic-background_6193689.png!bw700);
+  background-size:100%;
+}
+
+.lanavbar img{
+    width: 80px;
+    top: 13px;
+    margin-left: 15px;
+}
+
+.lanavbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.lanavbar .nav-link:hover {
+    padding-bottom: 15px;
+    border-bottom-color:rgb(213, 133, 41);
+}
+
+.Menu{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.tab{
+    display: flex;
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    background-color:transparent;
+  }
+
+  .tablinks{
+    justify-content:center;
+    /* background-color: transparent; */
+
+  }
+
+  #Tab1{
+    display: block;
+
+  }
+  /* Style pour les boutons d'onglets */
+  .tab button:hover{
+    color: orange;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* padding: 14px 16px; */
+    transition: 0.3s;
+    /* transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease; */
+  }
+
+  /* Style pour les boutons d'onglets actifs */
+/* 
+  .tab button.active {
+    background-color: transparent;
+  } */
+
+  .tab button{
+    background-color: transparent;
+    border:none;
+  }
+
+  /* Style pour le contenu des onglets */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-top: none;
+  }
+
+  .container-border img{
+    flex:0 0 33.33%;
+    max-width: 25%;
+    margin: 15px;
+    vertical-align: text-top;
+  }
+
+.container-border .border{
+    border: solid 1px rgb(173, 168, 168);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+
+  
