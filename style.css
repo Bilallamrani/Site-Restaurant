@@ -8,64 +8,34 @@
     font-family:'Merriweather', serif;
 }
 
-.lanavbar{
-    background-color: rgba(0,0,0,0.55);
-    font-family: 'Merriweather', serif;
-    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
-    z-index: 99;
+body{
+    background-image: url(/image/R.jpg);
+    /* background-size:110%; */
 }
 
-.lanavbar img{
-        width: 80px;
-        
-        top: 13px;
-        margin-left: 20px;
-    }
-
-.lanavbar .nav-link{
+.navbar-brand{
+    color:#fff;
+}
+.nav-link{
+    color:#fff;
+}
+.navbar .nav-link{
     border-bottom: 1px solid transparent;
     transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
 }
 
-.lanavbar .nav-link:hover{
+.navbar .nav-link:hover {
     padding-bottom: 15px;
-    border-bottom-color: rgb(213, 133, 41)
+    border-bottom-color:#fff;
 }
+.card{
+    background-color:transparent;
+  }
 
-.jumbotron{
-    background: url(/image/01-2.jpg) center center fixed no-repeat;
-    /* background-image: url(/image/R\ \(1\).jpg); */
-    /* background-size: cover; */
-    height: 712px;
-    padding-top: 150px;
-}
-
-.jumbotron .banner-description{
-    font-size: 35px;
-    color:#fff
-}
-
-.img-fluid{
-    width: 70%;
-}
-
-.card-body{
-    padding-top: 50px;
-}
-.btn-order{
-    color: #fff;
-    border-color: rgb(213, 133, 41);
-    transition: 0.5s;
-    margin: 10px;
-}
-
-/* .btn-success{
-    background: rgb(24, 237, 24);
-    border-color:rgb(24, 237, 24);
-} */
-
-.btn-order:hover,
-.btn-order:active {
+.card-text{
     color:#fff;
-    background: rgb(213, 133, 41)
+}
+
+.btn{
+    color: #fff;
 }

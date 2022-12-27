@@ -16,76 +16,151 @@
 
 <body>
   <header>
-    <nav class="lanavbar navbar navbar-expand-lg navbar-dark w-100">
-        <div class="container-fluid">
-          <img src="/image/luxury-mandala-islamic-background_6193689.png!bw700">
-          <a class="navbar-brand merriweather text-uppercase fw-bolder fs-2 mx-4 py-3" href="#">L'Oriental</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse merriweather fs-5" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item pe-5">
-                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
-              </li>
-              <li class="nav-item pe-5">
-                <a class="nav-link" href="index1.html">Menu</a>
-              </li>
-              <li class="nav-item pe-5">
-                <a class="nav-link" href="index2.html">Galeries</a>
-              </li>
-              <li class="nav-item pe-5">
-                <a class="nav-link" href="index3.html">Restaurant</a>
-              </li>
-              <li class="nav-item pe-5">
-                <a class="btn btn-success rounded-0" href="index4.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <img src="/image/R.png" width="70px">
+        <a class="navbar-brand merriweather fw-bolder mx-3 fs-2" href="#">L'Oriental</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse merriweather fs-5" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-5">
+              <a class="nav-link" aria-current="page" href="index.html">Acceuil</a>
+            </li>
+            <li class="nav-item pe-5">
+              <a class="nav-link" href="index1.html">Menu</a>
+            </li>
+            <li class="nav-item pe-5">
+              <a class="nav-link" href="index2.html">Galeries</a>
+            </li>
+            <li class="nav-item pe-5">
+              <a class="nav-link" href="index3.html">Restaurant</a>
+            </li>
+            <li class="nav-item pe-5">
+              <a class="btn btn-success rounded-0" href="index4.html">Contact</a>
+            </li>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-    <div class="Menu merriweather fs-2">Menu</div>
+  
+    <div class="Menu merriweather text-center pt-5 fs-2">Menu</div>
   </header>
 
-  <div class="tab redressed fs-4 justify-content-center">
+  <div class="tab merriweather fs-5 justify-content-center">
   
-    <button class="tablinks active" onclick="openTab(event, 'Tab1')">Entrées</button>
-    <!-- <button class="tablinks" onclick="openTab(event, 'Tab2')">Salades</button> -->
-    <button class="tablinks active" onclick="openTab(event, 'Tab2')">Tajines Poulet</button>
-    <button class="tablinks active" onclick="openTab(event, 'Tab3')">Couscous</button>
-    <button class="tablinks active" onclick="openTab(event, 'Tab4')">Grillades</button>
+    <button class="tablinks active pe-4" onclick="openTab(event, 'Tab1')">Entrées</button>
+    <button class="tablinks active pe-4" onclick="openTab(event, 'Tab2')">Tajines Poulet</button>
+    <button class="tablinks active pe-4" onclick="openTab(event, 'Tab3')">Couscous</button>
+    <button class="tablinks active pe-4" onclick="openTab(event, 'Tab4')">Grillades</button>
   </div>
   
   
-  <!-- Contenu de l'onglet 1 -->
+  <div class="row">
   <div id="Tab1" class="tabcontent">
-    <div class="container-border merriweather">
-      <div class="border">
-          <h4>Harira €9</h4> 
-          <p>Soupe traditionnelle Marocaine </p> 
-      <img src="/image/delicieuse-soupe-aux-legumes-dans-bol_181624-34248.jpg">
-          <h4>Salade Marocaine €8</h4>
-          <p>Tomates et poivrons frais </p>
-      <img src="/image/salade.webp">
-          <h4>Sardines €8</h4>
-      <img src="/image/sardines.jpg">
+    <div class="row row-cols-1 m-3 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card border-0">
+          <img src="/image/delicieuse-soupe-aux-legumes-dans-bol_181624-34248.jpg" class="card-img-top" alt="...">
+          <div class="card-body redressed text-center">
+            <h4 class="card-title fs-2">Harira €9</h4>
+            <p class="card-text fs-4">Soupe traditionnelle Marocaine</p>
+          </div>
+        </div>
       </div>
-  </div>  
+    <div class="col">
+      <div class="card border-0">
+        <img src="/image/salade.webp" class="card-img-top" alt="...">
+        <div class="card-bod redressed text-center">
+          <h4 class="card-title fs-2">Salade Marocaine €8</h4>
+          <p class="card-text fs-4">Salade, tomates, pois chiche et poivrons frais</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0">
+        <img src="/image/Plat poisson.webp" class="card-img-top" alt="...">
+        <div class="card-bod redressed text-center">
+          <h4 class="card-title fs-2">Sardines €8</h4>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 
-
+<div class="row">
   <div id="Tab2" class="tabcontent">
-    <div class="container-border merriweather">
-        <div class="border">
-            <h4>Tagine aux olives violettes et citrons confits €20</h4>   
-        <img src="/image/tajine-poulet.jpg">
-            <h4>Tagine au miel, noix et fruits secs €23</h4>
-        <img src="/image/tajine-marocain-traditionnel-poulet-aux-citrons-sales-olives_266870-5300.webp">
+    <div class="row row-cols-1 m-1 row-cols-md-3 g-4 justify-content-center">
+      <div class="col">
+        <div class="card border-0">
+          <img src="/image/tajine-poulet.jpg" class="card-img-top" alt="...">
+          <div class="card-body redressed text-center">
+            <h4 class="card-title fs-2">Tagine aux olives violettes et citrons confits €20</h4>
+          </div>
         </div>
-    </div>  
+      </div>
+    <div class="col">
+      <div class="card border-0">
+        <img src="image/tajine-marocain-traditionnel-poulet-aux-citrons-sales-olives_266870-5300.webp" class="card-img-top" alt="...">
+        <div class="card-bod redressed text-center">
+          <h4 class="card-title fs-2">Tagine au miel, noix et fruits secs €23</h4>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
 
+<div class="row">
   <div id="Tab3" class="tabcontent">
+    <div class="row row-cols-1 m-1 row-cols-md-3 g-4 justify-content-center">
+      <div class="col">
+        <div class="card border-0">
+          <img src="/image/c700x420.jpg" class="card-img-top" alt="...">
+          <div class="card-body redressed text-center">
+            <h4 class="card-title fs-2">Couscous végétarien €17</h4>
+            <p class="card-text fs-4">Semoule, bouillon & légumes, pois chiche, raisins secs</p>
+          </div>
+        </div>
+      </div>
+    <div class="col">
+      <div class="card border-0">
+        <img src="/image/couscous.jpg" class="card-img-top" alt="...">
+        <div class="card-bod redressed text-center">
+          <h4 class="card-title fs-2">Couscous d’agneau €22</h4>
+          <p class="card-text fs-4">Agneau, bouillon & légumes, pois chiche, raisins secs</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div id="Tab4" class="tabcontent">
+    <div class="row row-cols-1 m-1 row-cols-md-3 g-4 justify-content-center">
+      <div class="col">
+        <div class="card border-0">
+          <img src="/image/Brochette.webp" class="card-img-top" alt="...">
+          <div class="card-body redressed text-center">
+            <h4 class="card-title fs-2">Brochettes de viande mixte marinée €23</h4>
+          </div>
+        </div>
+      </div>
+    <div class="col">
+      <div class="card border-0">
+        <img src="/image/Plat poisson.webp" class="card-img-top" alt="...">
+        <div class="card-bod redressed text-center">
+          <h4 class="card-title fs-2">Poisson grillé au citron €26</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+   
+
+  <!-- <div id="Tab3" class="tabcontent">
     <div class="container-border merriweather">
         <div class="border">
             <h4>Couscous végétarien €17</h4>
@@ -107,7 +182,7 @@
         <img src="/image/Plat poisson.webp">
         </div>
     </div>  
-  </div>
+  </div> -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>

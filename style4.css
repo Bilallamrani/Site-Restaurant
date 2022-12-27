@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Redressed&display=swap');
+
+.redressed{
+    font-family: 'Redressed', cursive;
+}
+
+.merriweather{
+    font-family:'Merriweather', serif;
+}
+body{
+    background-image: url(/image/R.jpg);
+    /* background-size:110%; */
+  }
+  .navbar-brand{
+    color:#fff;
+  }
+  .nav-link{
+    color:#fff;
+  }
+  
+  .navbar .nav-link{
+      border-bottom: 1px solid transparent;
+      transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+  }
+  
+  .navbar .nav-link:hover {
+      padding-bottom: 15px;
+      border-bottom-color:#fff;
+  }
