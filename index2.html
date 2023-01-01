@@ -47,114 +47,37 @@
     <div class="galeries merriweather text-center pt-5 fs-2">Galeries</div>
   </header>
 
-  <div class="content" style="display: block;">
-  <div class="row m-1">
-    <div class="col-xs-12 col-md-4 col-lg-4">
-      <div class="card border-0 mb-3 my-4 mx-2">
-        <img src="/image/Thé à la menthe2.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
+  <div class="container mb-4 justify-content-center">
+    <div class="row m-3">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <img src="/image/trio1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/image/trio2 (2).jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/image/trio3.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="col-xs-12 col-md-4 col-lg-4">
-      <div class="card text-center border-0" >
-        <div class="ml-20 mr-20">
-        <img src="/image/lampa.jpg" class="rounded-circle" class="img-fluid" width="370" height="450" alt="...">
-        <div class="card-body">
-        </div>
-      </div>
-      </div>
-    </div>
-    <div class="col-xs-12 col-md-4 col-lg-4">
-      <div class="card border-0 mb-3 my-4 mx-2">
-        <img src="/image/bol.webp" class="card-img-top" alt="...">
-        <div class="card-body">
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
-
-<div class="content" style="display: none;">
-  <div class="page-2">
-  Contenu de la page 2
-  </div>
 </div>
-<div class="content" style="display: none;">
-  Contenu de la page 3
 </div>
-
-  <nav aria-label="Page navigation example">
-    <ul class="pagination justify-content-center">
-      <li class="page-item disabled">
-        <a class="page-link">Previous</a>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item">
-        <a class="page-link" href="#">Next</a>
-      </li>
-    </ul>
-  </nav>
-
-
-    <!-- <section class="contenu merriweather py-5">
-        <div class="container">
-            <div class="row">
-                <div class="card mb-5 border-0 rounded-0">
-                    <div class="row">
-                      <div class="col-md-3 pt-5">
-                        <img src="/image/Plat poisson.webp" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-5">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                          <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                          </div>
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="/image/tajine-marocain-traditionnel-poulet-aux-citrons-sales-olives_266870-5300.webp" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="/image/tarte-croustillante-au-poulet-vue-rapprochee-style-arabe_645691-1057.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="/image/tajine-poulet.jpg" class="d-block w-100" alt="...">
-                            </div>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                          </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                          </button>
-                        </div>
-                  </div>
-                      <div class="col-md-3 pt-5">
-                        <img src="/image/Brochette.webp" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      </div>
-                  </div>
-                  <div class="card mb-3 border-0 rounded-0">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <img src="/image/bol.webp" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-5">
-                        <img src="/image/couscous-salade-tajine-poulet-cuisine-marocaine_645691-729.jpg" class="img-fluid rounded-start" alt="...">
-                      </div>
-                  <div class="col-md-4 pt-5">
-                    <img src="/image/assiettes.jpg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                </div>
-                </div>
-            </div>
-        </section> -->
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
