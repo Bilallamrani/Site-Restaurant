@@ -8,10 +8,10 @@
     font-family:'Merriweather', serif;
 }
 
-body{
-    background-image: url(./image/R.jpg);
+/* body{
+    background-image: url(./image/Fond\ écran.jpg)
     /* background-size:110%; */
-}
+ */
 
 .navbar-brand{
     color:#fff;
