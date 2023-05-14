@@ -1,8 +1,8 @@
-***Restaurant Web Page***
+###Restaurant Web Page###
 
 This repository contains a website for learning purposes, showcasing a restaurant concept. Please note that this is a fictive website, and no actual restaurant exists, including the address and menu.
 
-**Project Link**
+##Project Link##
 You can access the website by clicking on the following link: '[Restaurant Web Page](https://bilallamrani.github.io/restaurant-bootstrap/)'
 
 **Description:**
@@ -11,11 +11,11 @@ The Restaurant Web Page is designed to capture the essence of an authentic orien
 **Technologies Used:**
 *The project utilizes the following technologies:*
 
--HTML
--CSS
--JavaScript
--Bootstrap
--Features
++HTML
++CSS
++JavaScript
++Bootstrap
++Features
 
 **Responsive Design:**
 The website is optimized to provide an optimal viewing experience across a variety of screen sizes, ranging from small mobile devices to large desktop screens.
