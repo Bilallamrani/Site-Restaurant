@@ -1,15 +1,22 @@
-Projet: Site Restaurant Oriental
+Restaurant Web Page
+This repository contains a website for learning purposes, showcasing a restaurant concept. Please note that this is a fictive website, and no actual restaurant exists, including the address and menu.
 
-Bienvenue sur le site de l'Oriental, un établissement de renom situé en plein coeur de la ville. Sur notre site, vous pouvez découvrir notre carte, réserver une table et en savoir plus sur notre histoire.
+Project Link
+You can access the website by clicking on the following link: Restaurant Web Page
 
-Technologies utilisée:
+Description:
+The Restaurant Web Page is designed to capture the essence of an authentic oriental dining experience, where you can indulge in a fusion of exotic flavors that will tantalize your taste buds. The website consists of five main sections: Home, Menu, Picture, About Us, and Contact.
 
-HTML/ CSS/ JS/ Bootstrap
+Technologies Used:
+The project utilizes the following technologies:
 
-Voici quelques-unes des fonctionnalités proposées sur notre site :
+HTML
+CSS
+JavaScript
+Bootstrap
+Features
 
-Page d'accueil indiquant un Jumbotron et 2 panels publicitaire,
-Carte interactive avec les différents plats proposés,
-Formulaire de réservation en ligne,
-Galerie de photos de l'établissement et de ses plats,
-Page à propos avec l'histoire de l'établissement, nos adresses et heures d'ouverture
+Responsive Design: 
+The website is optimized to provide an optimal viewing experience across a variety of screen sizes, ranging from small mobile devices to large desktop screens.
+
+Feel free to explore the website and appreciate the culinary journey it offers!
