@@ -21,4 +21,4 @@ The Restaurant Web Page is designed to capture the essence of an authentic orien
 #### Responsive Design:
 The website is optimized to provide an optimal viewing experience across a variety of screen sizes, ranging from small mobile devices to large desktop screens.
 
-Feel free to explore the website and appreciate the culinary journey it offers!
+Feel free to explore the website and appreciate the culinary journey it offers!!
